@@ -15,7 +15,7 @@ var paths = {
     'dev': {
         'less': './assets/less/',
         'js': './assets/js/',
-        'vendor': './assets/vendor/'
+        'vendor': './vendor/bower_components/'
     },
     'production': {
         'css': './public/assets/css/',
