@@ -11,20 +11,21 @@
 
 	<!-- Mobile Specific Metas
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<!-- CSS
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<link rel="stylesheet" href="assets/css/application.min.css">
-
-	<!-- Scripts
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-	<script src="assets/js/application.min.js"></script>
+	<link rel="stylesheet" href="assets/css/application.css">
 
 </head>
 <body>
 
 	
+	
+	<!-- Scripts
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script src="assets/js/application.js"></script>
 
 </body>
 </html>

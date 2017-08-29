@@ -3,6 +3,9 @@ require '../vendor/autoload.php';
 
 use Mailgun\Mailgun;
 
+// Set the recipient email address.
+$recipient = "you@your-email.com";
+
 // Instantiate the Mailgun SDK with your API credentials and define your domain. 
 $mg = new Mailgun("your-mailgun-key");
 $domain = "your-mailgun-domain";
@@ -36,9 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		echo "Please enter a message.";
 		exit;
 	}
-
-	// Set the recipient email address.
-	$recipient = "you@your-email.com";
 
 	// Set the email subject.
 	$subject = "New contact from $name";
